@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/different-cups-coffee-arrangement-with-copy-space_23-2148623258.jpg?w=1480&t=st=1707150196~exp=1707150796~hmac=0292ea99f5bf7bcf45212fc6ae929079b13185317757543c99480fb90b8c45cf);
+    font-family: sans-serif;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    color: #000000;
+    font-size: 18px;
+  }
+  
+  h1, p {
+    background-color: #faebd780;
+    border: solid 5px;
+    border-color: #faebd700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  
+  form {
+    background-color: #faebd789;
+    font-family: sans-serif;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border: solid 1px;
+    border-color: #faebd700;
+  }
+  
+  p {
+    font-style: italic;
+  }
+  
+  fieldset {
+    text-align: center;
+  }
+  
+  fieldset {
+    border-color: #faebd700;
+    margin-top: 5px;
+  }
+  
+  label {
+    text-align: center;
+  }
+  
+  select {
+    font-size: 16px;
+  }
+  
+  .submit {
+    font-size: 18;
+  }
+  

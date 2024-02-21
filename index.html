@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title id="survey-title">Coffee Shop Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Coffee Shop Survey</h1>
+      <p id="description">Please give us your input so we can better serve you</p>
+    <form id="survey-form">
+      <fieldset>
+        <div class="label-name">
+          <label id="name-label">Name: <input id="name" type="text" name="name" placeholder="Please provide your name" required /></label>
+        </div>
+        <div class="label-email">
+          <label id="email-label">Email: <input id="email" type="email" name="email" placeholder="Enter valid email address" required /></label>
+        </div>
+        <div class="label-number">
+          <label id="number-label">Age: <input id="number" type="number" name="number" min="13" max="120" placeholder="Age" required /></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown"> Were you satisfied with your beverage?</label>
+          <select id="dropdown" name="satisfaction">
+            <option value="">(Select one)</option>
+            <option value="5">5- Very Satisfied</option>
+            <option value="4">4- Mostly Satisfied</option>
+            <option value="3">3- Satisfied</option>
+            <option value="2">2- Not Quite Satisfied</option>
+            <option value="1">1- Not Satisfied<option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>During your visit, who was your barista?</legend>
+          <label><input value="barista1" type="radio" name="employee" class="inline" /> Katelyn</label>
+          <label><input value="barista2" type="radio" name="employee" class="inline" /> Shaye-Lynn</label>
+          <label><input value="barista3" type="radio" name="employee" class="inline" /> Kiara</label>
+      </fieldset>
+      <fieldset>
+        <legend>How did you hear about us? (Check more than one if applicable)</legend>
+        <label><input value="reference1" type="checkbox" name="reference" /> Instagram</label>
+        <label><input value="reference2" type="checkbox" name="reference" /> Facebook</label>
+        <label><input value="reference3" type="checkbox" name="reference" class="inline" /> Other</label>
+          <textarea id="reference3" cols="30" rows="1" placeholder="Where else have you seen us?"></textarea>
+      </fieldset>
+      <fieldset>
+        <label for="comments" class="comment">Provide any other comments or concerns you have:
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Comments or concerns..."></textarea>
+        </label>
+      <fieldset>
+        <button id="submit" class="submit" type="submit">Submit </button>
+      </fieldset>
+    </form>
+  </body>
+</html>
